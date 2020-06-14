@@ -1,4 +1,5 @@
-import React, { ComponentType, forwardRef, PropsWithChildren } from 'react';
+import * as React from 'react';
+import { ComponentType, forwardRef, PropsWithChildren } from 'react';
 import { Platform } from 'react-native';
 
 import Text, { TextProps } from '../primitives/Text';

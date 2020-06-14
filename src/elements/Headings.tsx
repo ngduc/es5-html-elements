@@ -1,4 +1,5 @@
-import React, { ComponentType, forwardRef } from 'react';
+import * as React from 'react';
+import { ComponentType, forwardRef } from 'react';
 import { Platform, StyleSheet } from 'react-native';
 
 import { em } from '../css/units';

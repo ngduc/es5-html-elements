@@ -1,4 +1,5 @@
-import React, { ComponentType, forwardRef } from 'react';
+import * as React from 'react';
+import { ComponentType, forwardRef } from 'react';
 import { Linking, Platform } from 'react-native';
 
 import Text from '../primitives/Text';

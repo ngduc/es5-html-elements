@@ -1,0 +1,36 @@
+{
+  "name": "react-native-html-elements",
+  "version": "0.0.1",
+  "description": "react-native-html-elements is a fork from @expo/html-elements but using \"import * as\" syntax.",
+  "main": "build/Elements.js",
+  "types": "build/Elements.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf build && tsc && npm run build:types",
+    "build:types": "rm -f index.d.ts && tsc -p declaration.tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngduc/react-native-html-elements.git"
+  },
+  "author": "Duc Nguyen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ngduc/react-native-html-elements/issues"
+  },
+  "homepage": "https://github.com/ngduc/react-native-html-elements#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.0",
+    "@types/react": "^16.9.36",
+    "@types/react-dom": "^16.9.8",
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-test-renderer": "^16.13.1",
+    "tsc": "^1.20150623.0",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "react-native": "^0.62.2"
+  }
+}
