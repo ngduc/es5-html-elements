@@ -1,6 +1,6 @@
 {
-  "name": "react-native-html-elements",
-  "version": "0.0.1",
+  "name": "es5-html-elements",
+  "version": "0.0.2",
   "description": "react-native-html-elements is a fork from @expo/html-elements but using \"import * as\" syntax.",
   "main": "build/Elements.js",
   "types": "build/Elements.d.ts",
@@ -30,7 +30,10 @@
     "tsc": "^1.20150623.0",
     "typescript": "^3.9.5"
   },
-  "dependencies": {
+  "peerDependencies": {
     "react-native": "^0.62.2"
+  },
+  "engines": {
+    "node": ">=10"
   }
 }
